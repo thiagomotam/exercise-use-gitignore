@@ -1,11 +1,11 @@
 node_modules/
 
-# z generated files - Ignore all files starting with "z."
-z.*
 
-# User-specific files - Ignore all files ending in ".env"
-*.env
+# Ignore all files starting with the letter 'z'
+z*
 
-# Root artifacts folder - Ignore this directory at the root due to leading slash
-# Removing the slash would ignore "artifacts" directories at all depths 
-/artifacts
+# Ignore the .env file
+.env
+
+# Ignore the top-level 'artifacts' directory
+/artifacts/
